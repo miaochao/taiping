@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QueryView">
+            <connections>
+                <outlet property="queryBtnView" destination="ccQ-ne-FQ4" id="afF-Ja-46A"/>
+                <outlet property="shengRiTouLabel" destination="vyo-wE-ImO" id="Dzw-6s-h8d"/>
+                <outlet property="xingBeiTouLabel" destination="9Xo-aO-5na" id="Cfg-g2-d9b"/>
+                <outlet property="xingBieImageView" destination="XJa-Zu-NZu" id="OIm-G6-DST"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="gun-nN-eAf" customClass="QueryView">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B1p-Y8-iZK">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="84v-SN-KXN">
+                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <state key="normal" title="姓名+身份证">
+                                <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <variation key="widthClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="20" y="8" width="71" height="29"/>
+                            </variation>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zki-d5-1HN">
+                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <state key="normal" title="身份证+保单号">
+                                <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <variation key="widthClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="224" y="7" width="46" height="30"/>
+                            </variation>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aFz-xe-tWW">
+                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <state key="normal" title="姓名+性别+生日+保单号">
+                                <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <variation key="widthClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="360" y="7" width="46" height="30"/>
+                            </variation>
+                        </button>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rUG-Ue-5al">
+                            <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <variation key="widthClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="108" y="57" width="235" height="30"/>
+                            </variation>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cFt-zT-QBA">
+                            <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <variation key="widthClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="108" y="109" width="318" height="30"/>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="108" y="109" width="235" height="30"/>
+                            </variation>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oy7-Is-HnC">
+                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <state key="normal" title="Button"/>
+                            <variation key="widthClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="497" y="0.0" width="46" height="30"/>
+                            </variation>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f1L-KL-ooO">
+                            <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="widthClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="34" y="60" width="42" height="21"/>
+                            </variation>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="luu-KI-ilh">
+                            <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="widthClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="34" y="113" width="42" height="21"/>
+                            </variation>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mM1-fA-yly">
+                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <state key="normal" title="男"/>
+                            <variation key="widthClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="360" y="56" width="60" height="30"/>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="440" y="109" width="60" height="30"/>
+                            </variation>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vyo-wE-ImO">
+                            <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="364" y="61" width="42" height="21"/>
+                            </variation>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Xo-aO-5na">
+                            <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="364" y="113" width="42" height="21"/>
+                            </variation>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ccQ-ne-FQ4">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19d-I7-esh">
+                                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                    <state key="normal" title="Button"/>
+                                    <variation key="widthClass=regular" fixedFrame="YES">
+                                        <rect key="frame" x="465" y="166" width="46" height="30"/>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                        <rect key="frame" x="368" y="0.0" width="46" height="30"/>
+                                    </variation>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <variation key="default">
+                                <mask key="subviews">
+                                    <exclude reference="19d-I7-esh"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="54" y="166" width="481" height="30"/>
+                                <mask key="subviews">
+                                    <include reference="19d-I7-esh"/>
+                                </mask>
+                            </variation>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XJa-Zu-NZu">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                <rect key="frame" x="451" y="113" width="56" height="26"/>
+                            </variation>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="84v-SN-KXN"/>
+                            <exclude reference="Zki-d5-1HN"/>
+                            <exclude reference="aFz-xe-tWW"/>
+                            <exclude reference="rUG-Ue-5al"/>
+                            <exclude reference="cFt-zT-QBA"/>
+                            <exclude reference="oy7-Is-HnC"/>
+                            <exclude reference="f1L-KL-ooO"/>
+                            <exclude reference="luu-KI-ilh"/>
+                            <exclude reference="mM1-fA-yly"/>
+                            <exclude reference="vyo-wE-ImO"/>
+                            <exclude reference="9Xo-aO-5na"/>
+                            <exclude reference="ccQ-ne-FQ4"/>
+                            <exclude reference="XJa-Zu-NZu"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="356" y="160" width="543" height="204"/>
+                        <mask key="subviews">
+                            <include reference="84v-SN-KXN"/>
+                            <include reference="Zki-d5-1HN"/>
+                            <include reference="aFz-xe-tWW"/>
+                            <include reference="rUG-Ue-5al"/>
+                            <include reference="cFt-zT-QBA"/>
+                            <include reference="oy7-Is-HnC"/>
+                            <include reference="f1L-KL-ooO"/>
+                            <include reference="luu-KI-ilh"/>
+                            <include reference="mM1-fA-yly"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <mask key="subviews">
+                            <include reference="vyo-wE-ImO"/>
+                            <include reference="9Xo-aO-5na"/>
+                            <include reference="ccQ-ne-FQ4"/>
+                            <include reference="XJa-Zu-NZu"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="B1p-Y8-iZK"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=regular">
+                <mask key="subviews">
+                    <include reference="B1p-Y8-iZK"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="baoDanHaoLabel" destination="luu-KI-ilh" id="OVC-RB-S5X"/>
+                <outlet property="baoDanHaoTF" destination="cFt-zT-QBA" id="S3B-u1-bF7"/>
+                <outlet property="bodyTwoBtn" destination="Zki-d5-1HN" id="dR7-on-Ymu"/>
+                <outlet property="exitBtn" destination="oy7-Is-HnC" id="j0P-T2-Guj"/>
+                <outlet property="keHuNameTF" destination="rUG-Ue-5al" id="zmz-h5-8cq"/>
+                <outlet property="keHunameLabel" destination="f1L-KL-ooO" id="jzW-vU-Xvm"/>
+                <outlet property="nameOneBtn" destination="84v-SN-KXN" id="dCS-Wh-qvI"/>
+                <outlet property="numberThreeBtn" destination="aFz-xe-tWW" id="h8A-Hv-dky"/>
+                <outlet property="queryBtn" destination="19d-I7-esh" id="1Z3-5H-fJ8"/>
+                <outlet property="smallQueryView" destination="B1p-Y8-iZK" id="F4K-ir-KaS"/>
+                <outlet property="xingBieBtn" destination="mM1-fA-yly" id="Jdy-BQ-OHH"/>
+            </connections>
+            <point key="canvasLocation" x="581" y="379"/>
+        </view>
+    </objects>
+</document>

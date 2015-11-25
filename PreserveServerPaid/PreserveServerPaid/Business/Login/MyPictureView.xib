@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="5fX-Yb-zA8" customClass="MyPictureView">
+            <rect key="frame" x="0.0" y="0.0" width="944" height="704"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" tag="9106" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SAV-t9-5yx">
+                    <rect key="frame" x="743" y="450" width="131" height="30"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="下一步">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="nextStepBtnClick:" destination="5fX-Yb-zA8" eventType="touchUpInside" id="qng-h5-6ig"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eb5-Ra-49G">
+                    <rect key="frame" x="58" y="121" width="829" height="270"/>
+                    <subviews>
+                        <button opaque="NO" tag="9105" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQ3-n4-fqa">
+                            <rect key="frame" x="709" y="223" width="76" height="30"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="上传">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="shangChuanBtnClick:" destination="5fX-Yb-zA8" eventType="touchUpInside" id="rhq-Uv-lq5"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="9104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tGH-cg-v9F">
+                            <rect key="frame" x="625" y="30" width="174" height="146"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="paiZhaoBtnClick:" destination="5fX-Yb-zA8" eventType="touchUpInside" id="GUb-NZ-4n2"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="9101" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S0N-Qz-R0y">
+                            <rect key="frame" x="13" y="30" width="174" height="146"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="paiZhaoBtnClick:" destination="5fX-Yb-zA8" eventType="touchUpInside" id="R7y-0N-33X"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="9103" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tDg-8P-W5R">
+                            <rect key="frame" x="419" y="30" width="174" height="146"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="paiZhaoBtnClick:" destination="5fX-Yb-zA8" eventType="touchUpInside" id="ecO-ht-oCt"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="9102" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgQ-hD-IwF">
+                            <rect key="frame" x="215" y="30" width="174" height="146"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="paiZhaoBtnClick:" destination="5fX-Yb-zA8" eventType="touchUpInside" id="9bX-TS-4Xp"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="9201" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jnM-CP-aDf">
+                            <rect key="frame" x="175" y="30" width="25" height="25"/>
+                            <connections>
+                                <action selector="delBtnClick:" destination="5fX-Yb-zA8" eventType="touchUpInside" id="3W9-NX-Pf5"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="9202" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fx3-dW-z5N">
+                            <rect key="frame" x="375" y="30" width="25" height="25"/>
+                            <connections>
+                                <action selector="delBtnClick:" destination="5fX-Yb-zA8" eventType="touchUpInside" id="uey-rJ-3Jj"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="9203" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rg-gx-8KP">
+                            <rect key="frame" x="575" y="30" width="25" height="25"/>
+                            <connections>
+                                <action selector="delBtnClick:" destination="5fX-Yb-zA8" eventType="touchUpInside" id="LS9-2l-c5G"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="9204" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uWX-hP-jN9">
+                            <rect key="frame" x="775" y="30" width="25" height="25"/>
+                            <connections>
+                                <action selector="delBtnClick:" destination="5fX-Yb-zA8" eventType="touchUpInside" id="aUC-l4-ugh"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="fourDelBtn" destination="uWX-hP-jN9" id="1cl-iG-mJ6"/>
+                <outlet property="nextStepBtn" destination="SAV-t9-5yx" id="L2m-ht-6qP"/>
+                <outlet property="oneDelBtn" destination="jnM-CP-aDf" id="Qah-wG-YSm"/>
+                <outlet property="paiZhaoFoureBtn" destination="tGH-cg-v9F" id="Ojg-k2-QDS"/>
+                <outlet property="paiZhaoOneBtn" destination="S0N-Qz-R0y" id="zHQ-Ke-EJH"/>
+                <outlet property="paiZhaoThreeBtn" destination="tDg-8P-W5R" id="7rA-vV-cQe"/>
+                <outlet property="paiZhaoTwoBtn" destination="fgQ-hD-IwF" id="6aT-qq-jcn"/>
+                <outlet property="shangChuanBtn" destination="iQ3-n4-fqa" id="m15-uP-xhS"/>
+                <outlet property="smallMyPictureView" destination="Eb5-Ra-49G" id="bjD-CV-6ur"/>
+                <outlet property="threeDelBtn" destination="5rg-gx-8KP" id="dCa-KL-q88"/>
+                <outlet property="twoDelBtn" destination="fx3-dW-z5N" id="cgo-KD-jkM"/>
+            </connections>
+            <point key="canvasLocation" x="306.5" y="361.5"/>
+        </view>
+    </objects>
+</document>

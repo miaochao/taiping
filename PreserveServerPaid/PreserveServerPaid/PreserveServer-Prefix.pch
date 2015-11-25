@@ -1,0 +1,27 @@
+//
+//  PreserveServer-Prefix.pch
+//  PreserveServerPaid
+//
+//  Created by yang on 15/9/29.
+//  Copyright (c) 2015年 wondertek. All rights reserved.
+//
+
+#ifndef PreserveServerPaid_PreserveServer_Prefix_pch
+#define PreserveServerPaid_PreserveServer_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "RequestURL.h"
+
+#import "TPLSessionInfo.h"
+#import "TPLRemoteServiceImpl.h"
+#import "TPLRemoteServiceProtocol.h"
+#import "CWDistantHessianObject.h"
+#import "TPLRequestHeaderUtil.h"
+#import "Models.h"
+
+#import "enumView.h"
+
+#import "BjcaInterfaceView.h"
+
+#endif
